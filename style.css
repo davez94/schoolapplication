@@ -1,0 +1,149 @@
+/*Font: Roboto Mono*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+/*Font: Roboto Slab*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+h1,
+h2 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+label,
+p,
+button {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  max-width: 100%;
+  background-color: #FFE0D4;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #543855
+}
+
+h2 {
+  color: #7F5F71
+}
+
+label {
+  font-weight: bold;
+  color: #543855
+}
+
+button {
+  background-color: #543855 !important;
+  color: #fff !important;
+}
+
+button:hover {
+  background-color: #543855cc !important;
+
+}
+
+input,
+select {
+  border: 1px solid #FF7F50 !important;
+}
+
+#inputDate {
+  background-image: url(calendar.png);
+  background-repeat: no-repeat;
+  background-position: 16px 10px;
+  text-indent: 25px;
+}
+
+.section1-bg {
+  background-color: #ffd6c6;
+}
+
+.section2-bg {
+  background-color: #FFCCB9;
+}
+
+.section3-bg {
+  background-color: #FFC2AB;
+}
+
+.section1,
+.section2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.section3,
+.section4 {
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.add-btn-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 46px;
+
+}
+
+.section2 h2,
+.section3 h2 {
+  padding-top: 30px;
+}
+
+
+.part-box {
+  background-color: #FFE0D5;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.remove-btn-box {
+  text-align: right;
+}
+
+
+
+.btn_remove {
+  border-radius: 100% !important;
+  background-color: #ff5b5b !important;
+}
+
+.btn_remove:hover {
+  background-color: #ff5b5b9a !important;
+}
+
+
+
+.sub-btn-box {
+  margin-top: 46px;
+  margin-bottom: 46px;
+  padding: 0px !important;
+}
+
+.input-info {
+  font-size: 12px;
+  color: #7F5F71;
+
+}
+
+@media (max-width: 1200px) {
+
+  .section1,
+  .section2,
+  .section3,
+  .add-btn-container,
+  .section4 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+
+  }
+}
+
+.more:hover {
+  cursor: pointer;
+}
