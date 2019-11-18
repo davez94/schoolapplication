@@ -64,7 +64,7 @@ else{
 
     }
 
-echo "<a href='http://localhost/schoolapplication/applications.php '>Check applications</a>";
+echo "<a href='applications.php '>Check applications</a>";
 
 
 
